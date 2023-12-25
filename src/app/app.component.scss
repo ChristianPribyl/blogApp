@@ -1,0 +1,9 @@
+h1 {
+    height: 10%;
+    object-fit: contain;
+}
+
+router-outlet {
+    height: 90%;
+    object-fit: contain;
+}

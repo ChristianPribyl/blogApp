@@ -1,0 +1,39 @@
+main {
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+}
+h2 {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    width: 70%;
+    height: 70%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    object-fit: contain;
+}
+
+nav {
+    max-width: 50%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+}
+
+a {
+    margin:auto;
+    height: auto;
+}
