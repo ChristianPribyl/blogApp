@@ -1,3 +1,13 @@
+# Updating site content
+Currently this app is hosted as a static site in S3.
+
+To add a new post:
+1. identify the next postid.  Each post should increment the id.
+2. create the post in assets/postid/postid.html.
+3. update the latest post in assets/directory.json
+4. upload changes to /assets to s3.
+5. invalidate cloud front cache (or wait a few hours).
+
 # Cowbeland
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
